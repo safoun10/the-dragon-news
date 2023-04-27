@@ -1,0 +1,15 @@
+.latest-btn{
+    margin: 15px;
+    border: none;
+    padding: 10px;
+    background-color : #D72050;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.marquee-box{
+    background-color: #F3F3F3;
+    padding: 0;
+}

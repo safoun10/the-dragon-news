@@ -13,7 +13,7 @@ const Header = () => {
 			</div>
 			<div className="fs-5">
 				<span>{moment().format("dddd")}</span> , 
-				<span  className='text-secondary'>{moment().format(" MMMM Do YYYY")}</span>
+				<span  className='text-secondary'>{moment().format(" MMMM D, YYYY")}</span>
 			</div>
 		</div>
 	);
