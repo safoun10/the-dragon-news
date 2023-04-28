@@ -3,7 +3,6 @@ import Header from "./../../pages/shared/header/Header";
 import Footer from "../../pages/shared/footer/Footer";
 import LeftNav from "../../pages/shared/leftNav/LeftNav";
 import RightNav from "../../pages/shared/rightNav/RightNav";
-import Marquee from "../../pages/components/marquee/MarqueeTexts";
 import MarqueeTexts from "../../pages/components/marquee/MarqueeTexts";
 import TopNav from "../../pages/shared/topNav/TopNav";
 
