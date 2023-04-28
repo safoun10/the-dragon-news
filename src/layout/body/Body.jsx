@@ -9,11 +9,11 @@ import TopNav from "../../pages/shared/topNav/TopNav";
 
 const Body = () => {
 	return (
-		<div style={{maxWidth: "1200px"}} className="mx-auto">
+		<div style={{ maxWidth: "1200px" , minHeight: "100vh"}} className="mx-auto">
 			<Header></Header>
 			<MarqueeTexts></MarqueeTexts>
 			<TopNav></TopNav>
-			{/* <section className="row">
+			<section className="row">
 				<div className="col-lg-3">
 					<LeftNav></LeftNav>
 				</div>
@@ -21,7 +21,7 @@ const Body = () => {
 				<div className="col-lg-3">
 					<RightNav></RightNav>
 				</div>
-			</section> */}
+			</section>
 			{/* <Footer></Footer> */}
 		</div>
 	);
