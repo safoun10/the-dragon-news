@@ -5,6 +5,7 @@ import LeftNav from "../../pages/shared/leftNav/LeftNav";
 import RightNav from "../../pages/shared/rightNav/RightNav";
 import MarqueeTexts from "../../pages/components/marquee/MarqueeTexts";
 import TopNav from "../../pages/shared/topNav/TopNav";
+import { Outlet } from "react-router-dom";
 
 const Body = () => {
 	return (
@@ -16,7 +17,7 @@ const Body = () => {
 				<div className="col-lg-3">
 					<LeftNav></LeftNav>
 				</div>
-				<div className="col-lg-6">Content Coming Soon</div>
+				<div className="col-lg-6"><Outlet></Outlet></div>
 				<div className="col-lg-3">
 					<RightNav></RightNav>
 				</div>
