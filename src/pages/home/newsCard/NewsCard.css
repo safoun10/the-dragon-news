@@ -1,0 +1,26 @@
+.author-img {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+}
+
+.author-bg {
+    background-color: #F3F3F3;
+    padding: 15px 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.news-card {
+    border: 2px solid #c6c6c6;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.news-card:hover {
+    border: 2px solid rgba(255, 166, 0, 0.574);
+}
+
+.read-more {
+    color: orange;
+}

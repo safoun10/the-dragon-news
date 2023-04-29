@@ -20,7 +20,7 @@ const News = () => {
 						<RightNav></RightNav>
 					</div>
 				</section>
-				{/* <Footer></Footer> */}
+				<Footer></Footer>
 			</div>
 		</div>
 	);
