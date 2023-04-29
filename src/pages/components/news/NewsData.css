@@ -1,0 +1,17 @@
+.news-card {
+    border: 2px solid #c6c6c6;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.news-card:hover {
+    border: 2px solid rgba(255, 166, 0, 0.574);
+}
+
+.all-news-btn{
+    background-color: #D72050;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px 0;
+}

@@ -16,7 +16,7 @@ const News = () => {
 					<div className="col-lg-9">
 						<Outlet></Outlet>
 					</div>
-					<div className="col-lg-3">
+					<div className="col-lg-3 mt-5">
 						<RightNav></RightNav>
 					</div>
 				</section>
