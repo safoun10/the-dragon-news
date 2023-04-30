@@ -24,7 +24,7 @@ const TopNav = () => {
 				<div>
 					<BsPersonCircle className="fs-2 text-secondary me-3"></BsPersonCircle>
 				</div>
-				<Link>
+				<Link to={"/login"}>
 					<button className="bg-dark text-white px-4 py-2 border-0">
 						Login
 					</button>
