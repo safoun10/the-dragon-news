@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import "./NewsData.css";
 import { BsArrowLeft } from "react-icons/bs";
+
 const NewsData = () => {
 	const news = useLoaderData();
 
 	const { category_id , title, image_url, details } = news;
-
-	console.log(news);
 	return (
 		<div className="mt-5 pt-2">
 			<div className="mb-4 news-card">

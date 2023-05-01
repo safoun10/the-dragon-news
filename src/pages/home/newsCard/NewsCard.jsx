@@ -62,6 +62,7 @@ const NewsCard = ({ news }) => {
 							fullSymbol={
 								<BsStarFill className="read-more"></BsStarFill>
 							}
+							readonly
 						/>
 						<div>{rating.number}</div>
 					</div>
